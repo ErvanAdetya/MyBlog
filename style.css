@@ -1,11 +1,30 @@
-h1 {
-	color: teal;
+body{
+	margin: 0 0 100px;
 }
 
-.media {
-	background: teal;
-	border: 1px solid teal;
-	border-radius: 3px;
-	margin: 10px;
-	padding: 14px;
+.footer {
+	background-image: url("Source/background.jpg");
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	overflow: hidden;
+	float: right;
+}
+
+.ico {
+	filter: grayscale(100%);
+	height: 30px;
+	width: 30px;
+	transition: 0.5;
+}
+
+.ico a {
+	float: left;
+}
+
+.ico:hover {
+	filter: grayscale(0);
+	transition: 0.5;
 }
