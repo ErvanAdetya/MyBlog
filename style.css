@@ -1,0 +1,11 @@
+h1 {
+	color: teal;
+}
+
+.media {
+	background: teal;
+	border: 1px solid teal;
+	border-radius: 3px;
+	margin: 10px;
+	padding: 14px;
+}
