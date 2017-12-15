@@ -3,7 +3,7 @@ body{
 }
 
 .footer {
-	background-image: url("Source/background.jpg");
+	background-image: url("./Source/background.jpg");
 	position: absolute;
 	left: 0;
 	bottom: 0;
