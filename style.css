@@ -1,16 +1,56 @@
-body{
+.body{
 	margin: 0 0 100px;
+	background-image: url("./Source/background.jpg");
+	background-repeat: : no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: white;
+	opacity: 0.4;
+	text-align: center;
+	font-family: arial;
+}
+
+.photo {
+	margin: auto;
+	margin-top: 100px;
+	height: 30%;
+	display: block;
+	border-radius: 10%;
+}
+
+.block {
+	background-image: url("./Source/background.jpg");
+	background-repeat: : no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 0px 75px 0 0px;
+}
+
+.myPage {
+	background-image: url("./Source/background.jpg");
+	width: 35%;
+	min-width: 200px;
+	height: 100%;
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
 }
 
 .footer {
-	background-image: url("./Source/background.jpg");
-	position: absolute;
+	background-color: rgba(255, 255, 255, 0.04);
+	position: fixed;
 	left: 0;
 	bottom: 0;
-	height: 40px;
-	width: 100%;
-	overflow: hidden;
-	float: right;
+	height: 30px;
+	width: 35%;
+	padding: 5px 0px;
 }
 
 .ico {
@@ -18,10 +58,7 @@ body{
 	height: 30px;
 	width: 30px;
 	transition: 0.5;
-}
-
-.ico a {
-	float: left;
+	float: right;
 }
 
 .ico:hover {
